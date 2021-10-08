@@ -1,0 +1,86 @@
+
+.section1{
+    text-align: center;
+    margin-top: 30px;
+}
+.section1 h1{
+    margin: 0px 0px 5px 0px;
+    font-family: Cursive;
+    font-size: 750;
+}
+.section1 .colors{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+    grid-column-gap: 45px;
+    margin-top: 50px;
+}
+
+.section1 .colors .color{
+    background:rgb(255, 255, 255);
+    
+    box-shadow: 0.4px 0.4px 35px rgba(196, 95, 95, 0.116);
+    padding: 8px 10px 20px 10px;
+    border-radius: 14px;
+}
+
+.section1 .colors .color .color-img{
+    height: 250px;
+    margin-top: 15px;
+}
+
+.section1 .colors .color .color-text{
+    margin-top: 10px;
+    font-family: Cursive;
+}
+
+.section1 .message{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    background: rgb(221, 162, 162);
+    display: inline-block;
+    padding: 10px 20px 10px;
+    border-radius: 50px;
+    color: rgb(169, 238, 155);
+}
+
+.section2{
+    text-align: center;
+    margin-top: 35px;
+    padding: auto;
+    
+
+  
+}
+
+.section2 .btn{
+    font-family:Cursive ;
+    font-size: 15px;
+    padding: 18px 150px;
+    background-color: #8573da;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    background: linear-gradient(135deg, #e587e5, #3d4880);
+}
+
+.section2 p{
+    font-size: 13px;
+    margin-top: 15px;
+    font-family: Tahoma, Verdana, sans-serif;
+
+}
+
+.section2 h4{
+    font-size: 13px;
+    font-weight: 400;
+    background: #fff;
+    
+    display: inline-flex;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
